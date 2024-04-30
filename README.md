@@ -5,7 +5,7 @@
 First, clone this repository and navigate to `drowsiness_detection` folder:
 
 ```
-
+git clone https://github.com/Abdulla-Almarzooqi/drowsiness_detection.git
 cd drowsiness_detection
 ```
 
@@ -59,4 +59,6 @@ To run the demo for LLaVA, simply follow the instructions stated in `llava_demo.
 ### Prediction and Evaluation
 
 To use LLaVA for drowsiness classification and evaluate its performance for all of the three variants (LLaVA-7B, LLaVA-13B, and BakLLaVA), run `drowsiness-llava.ipynb`. Follow the comments within the notebook for further guidelines.
+
+## Acknowledgements
 
