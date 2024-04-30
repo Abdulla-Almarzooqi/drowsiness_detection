@@ -2,11 +2,18 @@
 
 [dataset](https://universe.roboflow.com/yolo-yvl6h/drowsiness-fatigue_detection) | [pretrained models](https://mbzuaiac-my.sharepoint.com/personal/abdulrahman_almarzooqi_mbzuai_ac_ae/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fabdulrahman%5Falmarzooqi%5Fmbzuai%5Fac%5Fae%2FDocuments%2FBest%20Model%20Weights&ct=1714335263260&or=OWA%2DNT%2DMail&cid=22ae46c4%2D3d0a%2D2e04%2Df78a%2D5b39b386d07d&ga=1&LOF=1)
 
+First, clone this repository and navigate to `drowsiness_detection` folder:
+
+```
+
+cd drowsiness_detection
+```
+
 ## I) YOLOv8, YOLOv9, and RT-DETR
 
 ### Setup Instructions
     
-1. First create a conda environment:
+1. Create a conda environment:
 
      ```
      conda create -n detection
