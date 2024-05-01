@@ -2,11 +2,11 @@
 
 [dataset](https://universe.roboflow.com/yolo-yvl6h/drowsiness-fatigue_detection) | [pretrained models](https://mbzuaiac-my.sharepoint.com/personal/abdulrahman_almarzooqi_mbzuai_ac_ae/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fabdulrahman%5Falmarzooqi%5Fmbzuai%5Fac%5Fae%2FDocuments%2FBest%20Model%20Weights&ct=1714335263260&or=OWA%2DNT%2DMail&cid=22ae46c4%2D3d0a%2D2e04%2Df78a%2D5b39b386d07d&ga=1&LOF=1)
 
-First, clone this repository and navigate to `driver_drowsiness_detection` folder:
+First, clone this repository and navigate to `drowsiness_detection` folder:
 
 ```
-git clone https://github.com/Abdulla-Almarzooqi/driver_drowsiness_detection.git
-cd driver_drowsiness_detection
+git clone https://github.com/Abdulla-Almarzooqi/drowsiness_detection.git
+cd drowsiness_detection
 ```
 
 ## I) YOLOv8, YOLOv9, and RT-DETR
@@ -16,8 +16,8 @@ cd driver_drowsiness_detection
 1. Create a conda environment:
 
      ```
-     conda create -n detection
-     conda activate detection
+     conda create -n drowsiness
+     conda activate drowsiness
      ```
 
 2. To run YOLOv8, we used PyTorch v1.13.1 with CUDA 11.6. For YOLOv9 and RT-DETR, we used PyTorch v2.0.0 along with CUDA 11.7. It is preferred that you use the latter only for all models. To install it, run the following command:
@@ -50,7 +50,11 @@ To run the demo for these object detection models, simply follow the instruction
 
 ### Setup Instructions
 
-To install LLaVA, simply follow the instructions specified [in this repository](https://github.com/haotian-liu/LLaVA?tab=readme-ov-file#install) (better to create a separate conda environment for this part). In case you did not install the dataset yet, refer to step 4 of section (I) in the setup instructions.
+1. To install LLaVA, simply follow the instructions specified [in this repository](https://github.com/haotian-liu/LLaVA?tab=readme-ov-file#install) (better to create a separate conda environment for this part).
+
+2. Install the libraries mentioned [in this notebook](https://colab.research.google.com/drive/1qsl6cd2c8gGtEW1xV5io7S8NHh-Cp1TV?usp=sharing#scrollTo=6Bx8iu9jOssW).
+
+3. In case you did not install the dataset yet, refer to step 4 of section (I) in the "Setup Instructions".
 
 ### Demo
 
