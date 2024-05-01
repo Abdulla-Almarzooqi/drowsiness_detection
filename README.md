@@ -62,3 +62,12 @@ To use LLaVA for drowsiness classification and evaluate its performance for all 
 
 ## Acknowledgements
 
+1. For the three object detection models, we referred [to this code](https://www.kaggle.com/code/ahmedmoneimm/yolov8-drowsiness-detection). We did the following changes:
+   - Tweaked the hyperparameters a bit
+   - Tried different models (YOLOv9 and RT-DETR)
+   - For YOLOv9 and RT-DETR, we did not use the same code to create a new custom YAML file, instead, we directly made use of the one created in the YOLOv8 notebook.
+
+3. For LLaVA, we referred [to this notebook](https://colab.research.google.com/drive/1qsl6cd2c8gGtEW1xV5io7S8NHh-Cp1TV?usp=sharing). We tried different models and added our own code to do the following:
+   - Extract the 'yes'/'no' LLM output
+   - Get the predictions along with the corresponding ground truth labels
+   - Compare them and get the evaluation metrics.
