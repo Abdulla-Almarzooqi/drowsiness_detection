@@ -58,7 +58,7 @@ To run the demo for these object detection models, simply follow the instruction
 
 ### Demo
 
-To run the demo for LLaVA, simply follow the instructions stated in `llava_demo.ipynb` which can be found under the folder `Demo`. Note the the prompt has to be written in a specific format, which is specified within the notebook.
+To run the demo for LLaVA, simply follow the instructions stated in `llava_demo.ipynb` which can be found under the folder `Demo`. Note the the prompt has to be written in a specific format, which is specified in the notebook.
 
 ### Prediction and Evaluation
 
